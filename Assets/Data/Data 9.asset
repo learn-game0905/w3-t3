@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e4dc20fc75b451498317ed50583810a, type: 3}
-  m_Name: Graphic
+  m_Script: {fileID: 11500000, guid: d33e7cae561ad2e40941e9f0d267cff5, type: 3}
+  m_Name: Data 9
   m_EditorClassIdentifier: 
-  options:
-  - Low
-  - Medium
-  - High
+  imgItem: {fileID: 21300000, guid: 11afa5cbe2051d84a83f7d4081110324, type: 3}
+  quantityItem: 1
