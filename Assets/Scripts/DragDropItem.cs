@@ -50,15 +50,9 @@ public class DragDropItem : MonoBehaviour, IBeginDragHandler , IDragHandler, IEn
             {
                 transform.position = listItemBag[i].transform.position;
             }
+            
         }
 
-        for (int i = 0; i < listBag.Length; i++)
-        {
-            if (eventData.pointerDrag.transform.position == listBag[i].transform.position)
-            {
-                
-            }
-        }
     }
 
     public void OnDrop(PointerEventData eventData)
